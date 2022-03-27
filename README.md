@@ -1,7 +1,7 @@
 # macOS 12, Monterey on the B365M Mortar
-![About](https://user-images.githubusercontent.com/73723350/160298482-352045e2-09d6-4b0d-9504-7722e58323c0.png)
-![MoBo](https://user-images.githubusercontent.com/73723350/160301389-3796d74d-dcc5-4d3c-98c8-20e72d44c5f4.png)
 
+![about](https://user-images.githubusercontent.com/73723350/160302049-f2fcfe32-2416-4443-98c5-26be6752f483.png)
+![neofetch](https://user-images.githubusercontent.com/73723350/160302051-3b3fcd7b-af1c-45d2-ba55-1a2b0bb4dde0.png)
 
 ## notes
 - use `HfsPlus.efi` instead of `OpenHfsPlus.efi`
@@ -23,7 +23,7 @@ MoBo: MSI-MAG B365M Mortar
 
 GPU: Intel UHD 630 Graphics
 
-RAM: G.Skill DDR4 Aegis 3000 MHz running @ 2666 MHz
+RAM: G.Skill DDR4 16 Aegis 3000MHz running @ 2666 MHz
 
 Wi-Fi/BT: fenvi T919
 
@@ -33,15 +33,15 @@ HDD: SanDisk SSD PLUS 120GB
 
 everything.
 
-## what isn't working:
+## what isn't working
 
 -.
 
 ## BIOS settings & ver
 
-Update to **E7C67IMS.143**
+udate to [7C67v143](https://download.msi.com/bos_exe/mb/7C67v143.zip)
 
-Load the default settings
+lad the default settings
 
 ... and change the following:
 
