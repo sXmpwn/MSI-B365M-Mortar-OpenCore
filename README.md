@@ -23,17 +23,17 @@
 
 ## hw used in this build
 
-CPU: Intel Core i5-8400
+CPU: **Intel Core i5-8400**
 
-MoBo: MSI-MAG B365M Mortar
+MoBo: **MSI-MAG B365M Mortar**
 
-GPU: Intel UHD 630 Graphics
+GPU: **Intel UHD 630 Graphics**
 
-RAM: G.Skill DDR4 16 Aegis 3000MHz** running @ 2666 MHz
+RAM: **G.Skill DDR4 16 Aegis 3000MHz** running @ 2666 MHz
 
-Wi-Fi/BT: fenvi T919
+Wi-Fi/BT: **fenvi T919**
 
-HDD: SanDisk SSD PLUS 120GB
+HDD: **SanDisk SSD PLUS 120GB**
 
 ## what is working
 
@@ -41,7 +41,7 @@ everything.
 
 ## what isn't working
 
--.
+-
 
 ## BIOS settings & ver
 
@@ -58,6 +58,15 @@ load the default settings;
 - **Integrated Graphics Share Memory** - 64MB *(also iGPU-only)*
 - **Windows 10 WHQL Support** - UEFI
 - **Intel VT-D Tech** - Enabled
+
+## credits
+
+- [Dortania](https://github.com/dortania) for the guide
+- [CorpNewt](https://github.com/corpnewt) for (especially ProperTree) & too many things to mention each and our great conversations on the dc server
+- [Acidanthera](https://github.com/acidanthera) for too many things to mention each
+- [RehabMan](https://github.com/RehabMan) for too many things to mention each
+- [OpenCore project](https://github.com/OpenCorePkg) for the bootloader
+- [Dhinak G](https://github.com/dhinakg) for USBToolBox
 
 greetings
 
