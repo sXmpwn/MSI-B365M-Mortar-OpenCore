@@ -3,17 +3,23 @@
 ![about](https://user-images.githubusercontent.com/73723350/160302049-f2fcfe32-2416-4443-98c5-26be6752f483.png)
 ![neofetch](https://user-images.githubusercontent.com/73723350/160302051-3b3fcd7b-af1c-45d2-ba55-1a2b0bb4dde0.png)
 
+**the provided EFI is only a sample for this build, it boots but I highly recommend to build your own EFI so you'll learn about things & how they work, head to the** [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+
 ## notes
 - use `HfsPlus.efi` instead of `OpenHfsPlus.efi`
-- create your own USB map with USBToolBox in Windows
-- `-v` can be removed after installation
-- OpenCanopy GUI isn't provided
-- everything is set as per the Configuration.pdf (0.7.9) by Acidanthera for CFL-based sysstems
+- create your own USB map with [USBToolBox](https://github.com/USBToolBox) in Windows
+- `-v` (stands for Verbose) can be removed after installation
+- OpenCanopy GUI isn't provided to keep it lightweight
+- everything is set as per the [Configuration.pdf (0.7.9)](https://github.com/ad422/OSx86-MSI-B365M-Mortar/blob/main/Configuration.pdf) by Acidanthera for CFL-based sysstems
 - `config-iGPU.plist` only works with the integrated Intel UHD 630
-- make your own SMBus SSDT (SBUS-MCHC) after install
+- [make your own](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html) SMBus SSDT (SBUS-MCHC) after install
+- generate a `iMac19,1` SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 - OpenCore version is **0.7.9**
-- no Wi-Fi & Bluetooth Kexts included such as OpenIntelWireless
+- no Wi-Fi & Bluetooth Kexts included such as [OpenIntelWireless](https://openintelwireless.github.io/)
 - the provided EFI is able to boot **macOS 11** or **12**
+- the propertry list must be named `config.plist`
+- only use [ProperTree](https://github.com/corpnewt/ProperTree) to edit plist files, avoid configurators like OCAuxiliary, Clover & OC Configurator
+- the SSDT's are prebuilts by Acidanthera, however I recommend to use SSDTTime to generate them or the manual way (as the prebuilts are kinda bloated)
 
 ## hw used in this build
 
@@ -23,7 +29,7 @@ MoBo: MSI-MAG B365M Mortar
 
 GPU: Intel UHD 630 Graphics
 
-RAM: G.Skill DDR4 16 Aegis 3000MHz running @ 2666 MHz
+RAM: G.Skill DDR4 16 Aegis 3000MHz** running @ 2666 MHz
 
 Wi-Fi/BT: fenvi T919
 
@@ -39,9 +45,9 @@ everything.
 
 ## BIOS settings & ver
 
-udate to [7C67v143](https://download.msi.com/bos_exe/mb/7C67v143.zip)
+update to [7C67v143](https://download.msi.com/bos_exe/mb/7C67v143.zip) (latest beta as of end-march)
 
-lad the default settings
+load the default settings;
 
 ... and change the following:
 
@@ -53,4 +59,6 @@ lad the default settings
 - **Windows 10 WHQL Support** - UEFI
 - **Intel VT-D Tech** - Enabled
 
-**Repository will be improved very soon.**
+greetings
+
+⁓ sXmpwn
