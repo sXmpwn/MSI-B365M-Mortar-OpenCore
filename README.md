@@ -19,7 +19,7 @@
 - the provided EFI is able to boot **macOS 11** or **12**
 - the propertry list must be named `config.plist`
 - only use [ProperTree](https://github.com/corpnewt/ProperTree) to edit plist files, avoid configurators like OCAuxiliary, Clover & OC Configurator
-- the SSDT's are prebuilts by Acidanthera, however I recommend to use [SSDTTime](https://github.com/corpnewt/SSDTTime to generate them or the manual way (as the prebuilts are kinda bloated)
+- the SSDT's are prebuilts by Acidanthera, however I recommend to use [SSDTTime](https://github.com/corpnewt/SSDTTime) to generate them or the manual way (as the prebuilts are kinda bloated)
 
 ## hw used in this build
 
