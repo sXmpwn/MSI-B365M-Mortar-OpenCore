@@ -1,17 +1,19 @@
 # macOS 12, Monterey on the B365M Mortar
 ![About](https://user-images.githubusercontent.com/73723350/160298482-352045e2-09d6-4b0d-9504-7722e58323c0.png)
 
-Notes:
+## notes
 - use HfsPlus instead of OpenHfsPlus
 - create your own USB map with USBToolBox in Windows
 - -v can be removed after installation
-- GUI isn't provided
+- OpenCanopy GUI isn't provided
+- everything is set as per the Configuration.pdf by Acidanthera for Coffee Lake systems
 - config-iGPU.plist only works with the integrated Intel UHD 630
+- make your own SMBus SSDT (SBUS-MCHC) after install
 - OpenCore version is 0.7.9
 - no Wi-Fi & Bluetooth Kexts included such as OpenIntelWireless
 - the EFI is able to boot macOS 11 or 12
 
-My hardware used in this build:
+## hw used in this build
 
 CPU: Intel Core i5-8400
 
@@ -25,15 +27,15 @@ Wi-Fi/BT: fenvi T919
 
 HDD: SanDisk SSD PLUS 120GB
 
-What is working:
+## what is working
 
 everything.
 
-What isn't working:
+## what isn't working:
 
 -.
 
-BIOS Version and settings
+## BIOS Version and settings
 
 Update to E7C67IMS.143
 
@@ -49,4 +51,4 @@ Load the default settings
 - Windows 10 WHQL Support --> UEFI
 - Intel VT-D Tech --> Enabled
 
-Repository will be improved very soon.
+#### Repository will be improved very soon.
