@@ -1,5 +1,5 @@
 # macOS 12, Monterey on the B365M Mortar
-![About](https://user-images.githubusercontent.com/73723350/160297595-05fc8983-3993-4574-978a-a212bafc1721.png)
+![About](https://user-images.githubusercontent.com/73723350/160298482-352045e2-09d6-4b0d-9504-7722e58323c0.png)
 
 Notes:
 - use HfsPlus instead of OpenHfsPlus
