@@ -1,10 +1,12 @@
 # macOS 12, Monterey on the B365M Mortar
 ![About](https://user-images.githubusercontent.com/73723350/160298482-352045e2-09d6-4b0d-9504-7722e58323c0.png)
 
+
 ## notes
 - use HfsPlus instead of OpenHfsPlus
 - create your own USB map with USBToolBox in Windows
 - -v can be removed after installation
+
 - OpenCanopy GUI isn't provided
 - everything is set as per the Configuration.pdf by Acidanthera for Coffee Lake systems
 - config-iGPU.plist only works with the integrated Intel UHD 630
