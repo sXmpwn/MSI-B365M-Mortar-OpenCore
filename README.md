@@ -50,7 +50,7 @@ HDD: **SanDisk SSD PLUS 120GB**
 |Graphics acceleration (iGPU)| :thumbsup: |connected to the single HDMI port|
 |Sidecar| :thumbsup: |tested with iPad Pro 2016 & iPad 2018, wireless + lightning|
 |Restart/Shutdown| :thumbsup: |-|
-|Sleep| :thumpsup: |(iGPU-only) to also wake up the monitor you'll have to use the boot-arg `igfxonln=1` |
+|Sleep| :thumbsup: |(iGPU-only) to also wake up the monitor you'll have to use the boot-arg `igfxonln=1` |
 |CPU power management| :thumbsup: |X86PlatformPlugin is loaded in IOReg|
 |iServices| :thumbsup: |requires generated Apple ROM|
 |DRM| :thumbsup:| Apple TV doesn't work, Netflix plays on Chromium |
