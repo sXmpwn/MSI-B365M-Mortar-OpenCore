@@ -41,7 +41,7 @@ everything.
 
 ## what isn't working
 
--
+nothing.
 
 ## BIOS settings & ver
 
