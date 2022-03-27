@@ -37,7 +37,23 @@ HDD: **SanDisk SSD PLUS 120GB**
 
 ## what is working
 
-everything.
+|Features|Status|Additional details|
+|:-|:-|:-|
+|Sound| :thumbsup: |with layout-id 1|
+|USB Ports| :thumbsup: |mapped|
+|Wi-Fi| :thumbsup: |via T919|
+|Bluetooth| :thumbsup: |via T919|
+|AirDrop/Handoff| :thumbsup: |both directions work|
+|Universal Control| :thumbsup: |tested with iPad Pro 2016 & iPad 2018|
+|Ethernet| :thumbsup: |-|
+|Unlock with Apple Watch| :thumbsup: |with a AW Series 3|
+|Graphics acceleration (iGPU)| :thumbsup: |connected to the single HDMI port|
+|Sidecar| :thumbsup: |tested with iPad Pro 2016 & iPad 2018, wireless + lightning|
+|Restart/Shutdown| :thumbsup: |-|
+|Sleep| :thumpsup: |(iGPU-only) to also wake up the monitor you'll have to use the boot-arg `igfxonln=1` |
+|CPU power management| :thumbsup: |X86PlatformPlugin is loaded in IOReg|
+|iServices| :thumbsup: |requires generated Apple ROM|
+|DRM| :thumbsup:| Apple TV doesn't work, Netflix plays on Chromium |
 
 ## what isn't working
 
