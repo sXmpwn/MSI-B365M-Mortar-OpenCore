@@ -37,7 +37,7 @@ everything.
 
 -.
 
-## BIOS Version and settings
+## BIOS version and settings
 
 Update to E7C67IMS.143
 
@@ -53,4 +53,4 @@ Load the default settings
 - Windows 10 WHQL Support --> UEFI
 - Intel VT-D Tech --> Enabled
 
-#### Repository will be improved very soon.
+**Repository will be improved very soon.**
