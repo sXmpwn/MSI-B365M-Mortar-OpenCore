@@ -1,5 +1,5 @@
 # macOS 12, Monterey on the B365M Mortar
-`hackintoshed`
+
 ![about](https://user-images.githubusercontent.com/73723350/160302049-f2fcfe32-2416-4443-98c5-26be6752f483.png)
 ![neofetch](https://user-images.githubusercontent.com/73723350/160302051-3b3fcd7b-af1c-45d2-ba55-1a2b0bb4dde0.png)
 
