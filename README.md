@@ -1,15 +1,15 @@
 # macOS 12, Monterey on the B365M Mortar
-
+`hackintoshed`
 ![about](https://user-images.githubusercontent.com/73723350/160302049-f2fcfe32-2416-4443-98c5-26be6752f483.png)
 ![neofetch](https://user-images.githubusercontent.com/73723350/160302051-3b3fcd7b-af1c-45d2-ba55-1a2b0bb4dde0.png)
 
 **the provided EFI is only a sample for this build, it boots but I highly recommend to build your own EFI so you'll learn about things & how they work, head to the** [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
 ## notes
-- use `HfsPlus.efi` instead of `OpenHfsPlus.efi`
+- use `HfsPlus.efi` instead of `OpenHfsPlus.efi`, found [here](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - create your own USB map with [USBToolBox](https://github.com/USBToolBox) in Windows
 - `-v` (stands for Verbose) can be removed after installation
-- OpenCanopy GUI isn't provided to keep it lightweight
+- OpenCanopy GUI isn't provided to keep it lightweight, you can download it [here](https://github.com/acidanthera/OcBinaryData/tree/master/Resources)
 - everything is set as per the [Configuration.pdf (0.7.9)](https://github.com/ad422/OSx86-MSI-B365M-Mortar/blob/main/Configuration.pdf) by Acidanthera for CFL-based sysstems
 - `config-iGPU.plist` only works with the integrated Intel UHD 630
 - [make your own](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html) SMBus SSDT (SBUS-MCHC) after install
@@ -25,7 +25,7 @@
 
 CPU: **Intel Core i5-8400**
 
-MoBo: **MSI-MAG B365M Mortar**
+MoBo: **MSI MAG B365M Mortar**
 
 GPU: **Intel UHD 630 Graphics**
 
@@ -59,7 +59,7 @@ HDD: **SanDisk SSD PLUS 120GB**
 
 - only ATV+ using the iGPU, dGPU with Polaris+ should work just fine using the `iMacPro1,1` SMBIOS and (ev. not needed) `shikigva`
 
-## BIOS settings & ver
+## BIOS settings & ver.
 
 update to [7C67v143](https://download.msi.com/bos_exe/mb/7C67v143.zip) (latest beta as of end-march)
 
