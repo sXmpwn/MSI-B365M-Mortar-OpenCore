@@ -53,11 +53,11 @@ HDD: **SanDisk SSD PLUS 120GB**
 |Sleep| :thumbsup: |(iGPU-only) to also wake up the monitor you'll have to use the boot-arg `igfxonln=1` |
 |CPU power management| :thumbsup: |X86PlatformPlugin is loaded in IOReg|
 |iServices| :thumbsup: |requires generated Apple ROM|
-|DRM| :thumbsup:| Apple TV doesn't work, Netflix plays on Chromium |
+|DRM| :thumbsup:| Apple TV+ doesn't work, Netflix plays on Chromium |
 
 ## what isn't working
 
-nothing.
+- only ATV+ using the iGPU, dGPU with Polaris+ should work just fine using the `iMacPro1,1` SMBIOS and (ev. not needed) `shikihva`
 
 ## BIOS settings & ver
 
@@ -80,9 +80,8 @@ load the default settings;
 - [Dortania](https://github.com/dortania) for the guide
 - [CorpNewt](https://github.com/corpnewt) for (especially ProperTree) & too many things to mention each and our great conversations on the dc server
 - [Acidanthera](https://github.com/acidanthera) for too many things to mention each
-- [RehabMan](https://github.com/RehabMan) for too many things to mention each
 - [OpenCore project](https://github.com/OpenCorePkg) for the bootloader
-- [Dhinak G](https://github.com/dhinakg) for USBToolBox
+- [DhinakG](https://github.com/dhinakg) for USBToolBox
 
 greetings
 
