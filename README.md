@@ -75,6 +75,10 @@ load the default settings;
 - **Windows 10 WHQL Support** - UEFI
 - **Intel VT-D Tech** - Enabled
 
+## to-do's
+
+currently none
+
 ## credits
 
 - [Dortania](https://github.com/dortania) for the guide
