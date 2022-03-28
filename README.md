@@ -57,7 +57,7 @@ HDD: **SanDisk SSD PLUS 120GB**
 
 ## what isn't working
 
-- only ATV+ using the iGPU, dGPU with Polaris+ should work just fine using the `iMacPro1,1` SMBIOS and (ev. not needed) `shikihva`
+- only ATV+ using the iGPU, dGPU with Polaris+ should work just fine using the `iMacPro1,1` SMBIOS and (ev. not needed) `shikigva`
 
 ## BIOS settings & ver
 
